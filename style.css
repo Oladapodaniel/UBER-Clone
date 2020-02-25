@@ -1,0 +1,306 @@
+body {
+	font-family: Century Gothic;
+}
+* {
+	box-sizing: border-box;
+}
+
+header {color: white;					/*This is for the header, that is the Uber logo*/
+		font-family: Arial;
+		font-size: 20px;
+		background-color: black;
+		padding: 15px;
+		padding-left: 80px;
+		width: 100%;
+		margin: 0;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+}
+
+.sign_up_log_in {								/*This is for the log in sign up navbar*/
+	font-size: 18px;
+	float: right;
+
+	margin-right: 40px;
+	position: relative;
+	top: 25px;
+	left: -70px;
+
+}
+
+/*#nav_background {
+	background-color: white;
+	border: 2px solid blue;
+	width: 30px;
+	height: 30px;
+	
+	position: absolute;
+	top: 10px;
+	left: 990px;
+}*/
+#Uber_logo {
+	width:110px;
+	height: auto;
+}
+								
+#nav_background {
+
+font-size: 15px;						/*This is for the backgroun of the sign up button*/
+	color: black;
+	background-color: white;
+	padding: 8px;
+	margin-top: -7px;
+	margin-bottom: -10px;
+	
+}
+
+nav {
+	/*border: 2px solid green;*/
+	/*font-family: Arial;*/
+	font-size: 18px;
+	background-color: white;
+	text-align: center;
+	width: 115px;
+	height: 90px;
+	margin-left: 0;
+	margin-top: 5px;
+	padding: 12px;
+	padding-bottom: 3px;
+	position: relative;
+	top: -570px;
+	left: 69px;
+	/*z-index: 2;*/
+	float: left;
+	/*margin-top: 5px;*/
+	
+}
+
+
+#driver_image {
+	width: 1300px;
+	height: 700px;
+	margin: -10px;
+
+}
+
+#body_message {
+	font-size: 1.5em;
+	background-color: white;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: black;
+	width: 370px;
+	position: absolute;
+	top: 251px;
+	left: 77px;
+
+}
+
+
+	
+
+#uber_bikes_image {
+	/*border: 2px solid green;*/
+	width: 100%;
+	height: auto;	
+}
+
+#text_on_video {
+	color: white;
+	position: relative;
+	top: 520px;
+	left: 95px;
+	font-size: 40px;
+	font-family: Candara;
+}
+
+#youtube_play_icon {
+	width: 70px;
+	height: 50px;
+	position: relative;
+	top: 555px;
+	left: 95px;
+	font-size: 40px;
+
+}
+
+#youtube_play_text {
+	color: white;
+	position: relative;
+	top: 540px;
+	left: 110px;
+
+
+}
+
+.change_font {
+	/*font-family: Lucida Sans Unicode;*/
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+.change_font1 {
+/*	font-family: Lucida Sans Unicode;*/
+	font-size: 18px;
+}
+
+.change_font2{
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 50%;
+	padding: 5px;
+}
+
+.change_font3 {
+	text-decoration: underline;
+}
+
+.header_nav_resize {
+	font-size: 18px;
+	margin-left: 2em;
+	position: relative;
+	top: -30px;
+	left: 0;
+
+	
+}
+
+#username {
+	position: absolute;
+	top: 37px;
+	left: 75%;
+}
+
+#internet {
+	position: absolute;
+	top: 37px;
+	left: 71%;
+}
+
+
+.change_fonti {
+	/* font-weight: font -family: Lucida Sans Unicode;*/
+	font-size: 2.7em;
+	width: 37%;
+	height: 10%;
+	margin-left: 25px;
+	line-height: 45px;
+	letter-spacing: 0.6px;
+}
+.clear {
+	clear: both;
+}
+
+
+#comment_section1 {
+	
+	font-size: 40px;
+	font-family: Century Gothic;
+	margin-left: 25px;
+	margin-bottom: 15px;
+	width: 35%;
+}
+
+#com_sec_adjust1 {
+	font-family: Century Gothic;
+	width: 30%;
+	font-size: 15px;
+	line-height: 25px;
+	margin-left: 25px;
+}
+
+#com_sec_adjust2 {
+	font-family: Century Gothic;
+	font-size: 15px;
+	margin-left:25px;
+}
+
+#float_image {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#newsroom, #global, #about {
+	/*border: 2px solid red;***/
+	width: 33.33%;
+	float: right;
+	padding: 15px;
+	font-family: Century Gothic;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+#inner_global, #inner_about, #inner_newsroom {
+	margin-bottom: 10px;
+}
+#ride, #drive {
+	width: 150px;
+}
+#arrow1, #arrow2, #ride, #drive {
+	float: right;
+	margin-top: 30px;
+	margin-right: 13%;
+	font-family: Century Gothic;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#our_products, #about_us, #uber {
+	float: right;
+	width: 33.33%;
+}
+
+#q_mark {
+	position: relative;
+	top: 7px;
+	left: -4px;
+}
+
+#uber_image {
+	position: relative;
+	top: 0px;
+	left: -9px;
+}
+
+#uber {
+	line-height: 60px;
+}
+
+#footer {
+	float: right;
+	width: 20%;
+	border-top: 2px solid gray;
+	padding-top: 70px;
+
+
+}
+
+.shift_right {
+	position: relative;
+	top: 0px;
+	left: -140px;
+}
+
+.shift_left {
+	border-width: 200px;
+	position: relative;
+	top: 0px;
+	left: 140px;
+}
+
+.shift_left1 {
+	position: relative;
+	top: 0;
+	left: 70px;
+}
+
+.shift_right1 {
+	position: relative;
+	top: 0;
+	left: 200px;
+	margin-left: -63px;
+}
